@@ -1,0 +1,23 @@
+{
+  "name": "information-overflow",
+  "version": "1.0.0",
+  "description": "application update widgets",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proxtx/information-overflow.git"
+  },
+  "author": "Proxtx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Proxtx/information-overflow/issues"
+  },
+  "homepage": "https://github.com/Proxtx/information-overflow#readme",
+  "dependencies": {
+    "@proxtx/config": "^1.0.2",
+    "@proxtx/framework": "^1.5.3"
+  }
+}
