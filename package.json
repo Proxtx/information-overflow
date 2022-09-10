@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "application update widgets",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "nodemon ."
   },
