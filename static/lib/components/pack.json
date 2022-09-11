@@ -1,0 +1,10 @@
+{
+    "components": {
+        "info": {
+            "name": "info-io",
+            "template": "/components/info/index.html",
+            "handler": "/components/info/main.js",
+            "styles": ["/lib/main.css", "/components/info/style.css"]
+        }
+    }
+}
