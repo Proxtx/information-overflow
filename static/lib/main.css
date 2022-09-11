@@ -1,0 +1,23 @@
+:host {
+  --accentColor: #026500;
+  --borderSize: 2px;
+}
+
+body {
+  margin: 0;
+}
+
+.border {
+  border: var(--borderSize) solid var(--accentColor);
+}
+
+#background-canvas {
+  position: absolute;
+  background-color: black;
+  z-index: -3;
+}
+
+.translucent {
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(2px);
+}
