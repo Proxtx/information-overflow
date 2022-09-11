@@ -1,3 +1,6 @@
 const blocks = {
-  mainBox: () => {},
+  mainBox: {
+    html: "<div><div></div></div>",
+    builder: () => {},
+  },
 };
