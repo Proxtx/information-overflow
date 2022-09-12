@@ -17,6 +17,12 @@
       "template": "/components/box/index.html",
       "component": "/components/box/main.js",
       "styles": ["/main.css", "/components/box/style.css"]
+    },
+    "text": {
+      "name": "text-io",
+      "template": "/components/text/index.html",
+      "component": "/components/text/main.js",
+      "styles": ["/main.css", "/components/text/style.css"]
     }
   }
 }

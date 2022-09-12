@@ -1,7 +1,8 @@
-:host {
+* {
   --accentColor: #026500;
   --borderSize: 2px;
   --contentSpacing: 5px;
+  --greyColor: #8b8c89;
 }
 
 body {
