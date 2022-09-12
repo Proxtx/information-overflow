@@ -1,0 +1,5 @@
+#box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--contentSpacing);
+}

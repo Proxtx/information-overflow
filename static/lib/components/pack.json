@@ -5,6 +5,18 @@
       "template": "/components/info/index.html",
       "component": "/components/info/main.js",
       "styles": ["/main.css", "/components/info/style.css"]
+    },
+    "title-box": {
+      "name": "title-box-io",
+      "template": "/components/title-box/index.html",
+      "component": "/components/title-box/main.js",
+      "styles": ["/main.css", "/components/title-box/style.css"]
+    },
+    "box": {
+      "name": "box-io",
+      "template": "/components/box/index.html",
+      "component": "/components/box/main.js",
+      "styles": ["/main.css", "/components/box/style.css"]
     }
   }
 }

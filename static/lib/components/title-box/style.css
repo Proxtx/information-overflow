@@ -1,0 +1,11 @@
+#box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--contentSpacing);
+}
+
+#title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 135%;
+}

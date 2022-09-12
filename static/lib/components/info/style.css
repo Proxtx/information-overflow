@@ -17,15 +17,19 @@
 #title {
   margin-bottom: 0px;
   margin-top: 0px;
-  padding: 5px;
+  padding: var(--contentSpacing);
+}
+
+#controls {
+  display: flex;
+  gap: var(--contentSpacing);
 }
 
 #mainContent {
   width: 300px;
   height: 300px;
-}
-
-#controls {
-  display: flex;
-  gap: 5px;
+  padding: 5px;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
 }

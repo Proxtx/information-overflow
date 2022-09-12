@@ -1,6 +1,7 @@
 :host {
   --accentColor: #026500;
   --borderSize: 2px;
+  --contentSpacing: 5px;
 }
 
 body {

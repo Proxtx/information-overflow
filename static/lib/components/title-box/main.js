@@ -6,7 +6,7 @@ export class Component {
 
   attributeChangedCallback(attribute, oldValue, newValue) {
     switch (attribute) {
-      case "name":
+      case "title":
         this.document.getElementById("title").innerText = newValue;
         break;
     }
