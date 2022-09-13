@@ -1,0 +1,12 @@
+:host {
+  --backgroundColor: black;
+  --grey: white;
+  --outline: white;
+  --accentColor: green;
+  --textColor: white;
+  --greyText: white;
+}
+
+input {
+  color: white;
+}

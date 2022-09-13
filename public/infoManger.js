@@ -1,8 +1,10 @@
 import fs from "fs/promises";
+import { auth } from "./meta.js";
 
 let infoClasses = [];
 
-export const getInfo = async () => {
+export const getInfo = async (pwd) => {
+  if (!auth(pwd)) return;
   let build = [];
   for (let infoObject of infoClasses) {
     build.push({
