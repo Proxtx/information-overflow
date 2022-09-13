@@ -8,7 +8,7 @@ const buildLoop = async () => {
     let info = await infoManger.getInfo(cookie.pwd);
     warp.innerHTML = "";
     for (let obj of info.build) warp.appendChild(build(obj));
-    await new Promise((r) => setTimeout(r, 10000 * 10000));
+    await new Promise((r) => setTimeout(r, 10000));
   }
 };
 
