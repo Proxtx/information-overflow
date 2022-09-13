@@ -23,6 +23,18 @@
       "template": "/components/text/index.html",
       "component": "/components/text/main.js",
       "styles": ["/main.css", "/components/text/style.css"]
+    },
+    "video": {
+      "name": "video-io",
+      "template": "/components/video/index.html",
+      "component": "/components/video/main.js",
+      "styles": ["/main.css", "/components/video/style.css"]
+    },
+    "image": {
+      "name": "image-io",
+      "template": "/components/image/index.html",
+      "component": "/components/image/main.js",
+      "styles": ["/main.css", "/components/image/style.css"]
     }
   }
 }

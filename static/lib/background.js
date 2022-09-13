@@ -7,8 +7,8 @@ let color = "#00AA11";
 
 const drawCross = (x, y, width, height, color, stroke = 0.3) => {
   ctx.fillStyle = color;
-  ctx.fillRect(x, y + height / 2, width, stroke);
-  ctx.fillRect(x + width / 2, y, stroke, height);
+  ctx.fillRect(x, y, width / 2, height / 2);
+  /*ctx.fillRect(x + width / 2, y, stroke, height);*/
 };
 
 const drawSquare = (posX, posY, size, crosses, color) => {

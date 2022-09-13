@@ -4,6 +4,9 @@
 
 #wrap {
   border-radius: 4px;
+  overflow: visible;
+  width: 320px;
+  position: relative;
 }
 
 #headBar {
@@ -36,6 +39,9 @@
   flex-direction: column;
   gap: var(--contentSpacing);
   overflow: auto;
+  overflow-x: hidden;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #mainContent::-webkit-scrollbar {

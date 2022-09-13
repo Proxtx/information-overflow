@@ -2,7 +2,7 @@ export class Component {
   constructor(options) {
     this.document = options.shadowDom;
     this.options = options;
-    this.autoScroll();
+    setTimeout(() => this.autoScroll(), 2000);
   }
 
   attributeChangedCallback(attribute, oldValue, newValue) {
