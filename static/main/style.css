@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 #wrap {
   padding: 10px;
   display: flex;
@@ -6,4 +10,13 @@
   align-items: center;
   overflow-y: auto;
   height: 100vh;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1000px) {
+  #wrap {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 }

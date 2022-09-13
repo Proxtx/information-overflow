@@ -7,7 +7,7 @@ export const getInfo = async () => {
   for (let infoObject of infoClasses) {
     build.push({
       element: "info-io",
-      name: infoObject.name,
+      name: infoObject.class.name ? infoObject.class.name : infoObject.name,
       contains: await infoObject.class.info(),
     });
   }
