@@ -81,3 +81,12 @@ const loop = () => {
 };
 
 loop();
+
+window.addEventListener(
+  "resize",
+  () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  },
+  false
+);
