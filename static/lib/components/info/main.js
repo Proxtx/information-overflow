@@ -14,7 +14,7 @@ export class Component {
   }
 
   autoScroll() {
-    this.document.getElementById("mainContent").scrollBy(0, 50);
-    setTimeout(() => this.autoScroll(), 500);
+    this.document.getElementById("mainContent").scrollBy(5, 5);
+    setTimeout(() => this.autoScroll(), 5);
   }
 }
